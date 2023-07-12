@@ -6,7 +6,7 @@ public class DesembaralharString {
         Scanner scanner = new Scanner(System.in);
         
         int casosTeste = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha após o número de casos de teste
+        scanner.nextLine();
         
         for (int i = 0; i < casosTeste; i++) {
             String linha = scanner.nextLine();
